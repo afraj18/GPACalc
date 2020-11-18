@@ -225,12 +225,13 @@ public class Gpa {
                 
                 
                 System.out.println("\n");
-                System.out.println("-----|||||Result|||||-----");
+                System.out.println("-----||||| Result |||||-----");
                 System.out.printf("       TotalMarks : %.1f  \n       Total Credits : %d\n",tMark,(int)tCredit);
-                System.out.printf("\n       Final GPA : %.2f",(tMark/tCredit));
-                System.out.println("\n-----|||||Thanks for Using this.. IM ♠AJ♠|||||-----");
+                System.out.printf("----------------------------\n       Final GPA : %.2f\n",(tMark/tCredit));
+                System.out.print("----------------------------\n----------------------------");
                 
-                scan.close();
+                
+            scan.close();
     }
 }
 

@@ -13,26 +13,27 @@ public class MyMain{
                    
         
         switch(select.toLowerCase()){
-            case "gpa": 
+            case "gpa":                         //This Case is to user select and input gpa and Subject count
             case "gpa calculator" : 
             {
-                System.out.println("Enter the Amount of Subjects You have: ");
-                  int noOfSub = myObj.nextInt();
-                  Gpa stu = new Gpa();
-                      stu.myMethod(noOfSub);
-                  
-                  
+                Gpa stu = new Gpa();            
+                    System.out.println("Enter the Amount of Subjects You have: ");
+                        int noOfSub = myObj.nextInt();
+                stu.myMethod(noOfSub); 
                 break;
-            } 
+                } 
             case "report sheet" : 
             case "report" : 
             case "src" : 
             {
-                System.out.println("Enter the Amount of Subjects you have : ");
+                StuRep stu1 = new StuRep();
+                    System.out.println("Enter the Amount of Subjects you have : ");
+                    int x = myObj.nextInt();
+                stu1.mainStu(x);
             }
         }
-
-
+        System.out.println("\n-----|||||Thanks for Using My Calculator.. IM ♠AJ'AY♠|||||-----");
+        myObj.close();
     }
 
 }
