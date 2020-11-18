@@ -127,7 +127,7 @@ public class Gpa {
                     else if(courseCredit[i]==3){
                         switch(studentMark[i].toLowerCase()){ // Converstion of Char Grades into Marks and Addition
                             case "a" : case "a+":{  
-                                tMark += 4f;
+                                tMark += 4f*3;
                                 break;
                                 }
                             case "a-":{
@@ -176,7 +176,7 @@ public class Gpa {
                     else if(courseCredit[i]==4){
                         switch(studentMark[i].toLowerCase()){ // Converstion of Char Grades into Marks and Addition
                             case "a" : case "a+":{  
-                                tMark += 4f;
+                                tMark += 4f*4;
                                 break;
                                 }
                             case "a-":{
